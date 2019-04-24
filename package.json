@@ -1,0 +1,19 @@
+{
+  "name": "meetup",
+  "version": "2.0.0",
+  "description": "IRS meetup second edition",
+  "main": "index.js",
+  "author": "Roman Kislov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.3",
+    "morgan": "^1.9.1"
+  }
+}
